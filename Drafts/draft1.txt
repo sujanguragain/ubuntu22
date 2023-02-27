@@ -1,0 +1,18 @@
+s.guragain@inspheris.com
+
+monitorinspheris@gmail.com
+
+<Connector port="8016" protocol="AJP/1.3" maxConnections="512" connectionTimeout="30000" keepAliveTimeout="30000" redirectPort="8446" />
+
+	publishin-web-5.0.0-v7-canal-preprod-0183fcf90c75cfffd3cc494a2bd0882cc7d7e6d9.war	canal v7
+
+
+
+serl database update from 117
+
+
+212.83.132.168
+
+
+
+SET PASSWORD FOR 'lively'@'localhost' = PASSWORD('9UXZwJty3fJo8DHx');

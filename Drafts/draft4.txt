@@ -1,0 +1,15 @@
+#!/bin/bash
+useradd ansible
+usermod -aG wheel ansible
+echo "ansible ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+su - ansible -c "ssh-keygen"
+cd /home/ansible/
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC77E+qE6cqbwLNIAmZo8dVWbSU+Bfdf7t6lPeWpQI8bCALEX7zYXhRCfR+hRLmiEYQNf7hfR/FRFeO3fwdXO6QYUBghqe3+zG9zpLcOLxmT3ZkDgOE5tgGeroofzAIg6qiib4xoSJbW5eXLYE2t2TfNEQg6M46Op0eMDAxis7IJZ084edKUzq4/Yll+3n0X7/5DJE7jL3abtIm+LVTGOW51VeV6NTguPF+m0AvOGvT4q4UJ9my9vk0ISIN1rn+t6Lj7EDinRsUVgaOuGCG4kTgieXBApQmlalcjFz8DqBXSCI5gcPJAnFu/hhtajW8BHCiMdZ27KSH+13WJP2hBOtP root@localhost.localdomain" > .ssh/authorized_keys
+chmod 600 /home/ansible/.ssh/authorized_keys
+chown ansible:ansible /home/ansible/.ssh/authorized_keys
+
+
+
+ansible -i hosts -m ping prd
+
+ansible -i hosts -m mysql prd

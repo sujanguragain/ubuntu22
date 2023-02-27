@@ -1,0 +1,47 @@
+9UXZwJty3fJo8DHx
+
+B@(ku9mYsq1
+
+ enjoy.advensys.be
+ 
+ password for lively user of advensys:PueNQF0eU2ut0S
+ 
+  password for root of advensys: aJEBGu6hZ6dZRh
+  
+    
+  update person set login='user2-advensysprd' where login='user2';
+  
+  Preprod Config
+ Server name: ANNEMASSE
+Databasename: v4demo
+username: lively
+password: l1v3ly@p@ssw07d
+local.index.url=http://localhost:9200
+local.index.name=content
+# Local storage
+file.path = /data/
+
+
+
+select user from mysql.db where db='canalprodv4';
+
+
+
+useradd ansible
+usermod -aG wheel ansible
+vi /etc/sudoers
+
+ansible ALL=(ALL) NOPASSWD: ALL
+
+su ansible
+cd 
+ssh-keygen
+cd .ssh
+chmod 600 .ssh/authorized_keys 
+
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDJQ0IGofcFji8szf8nrRbQic4y4aXBTSvyThmYq3Q1zhFzlG8AQ7dCvAermBoN1i1Pi5juHaCmY8MJ69UhlN02fQlLtEpL8/qDFhkhxOPLxdN/j+k2BksiRDostR8HWxEw5qkTw6CXGcSsmo0FNLZtYNgY3hyg6ix8vzWOEGtvijhAEsqb3csPGAjuzRd2qTvWZ6GAOLxPLH47USyIFIP7iqOKdWa0947UjQ3FveYVpL+PXFlEOU8Tc5RYEt6nzUB7yazq46xb5qz1+WGcRp1CozwDd+dFjj0kFn1/0nmoCszw1cZtV7sqvOgWd8hPzk8zwq+lesSXhzVeivuobRVX root@localhost.localdomain
+
+
+
+SHA256:YfhyL1RXXLkIedMmDalGPya4pNzFHzeg7UPVw89vVdE root@localhost.localdomain

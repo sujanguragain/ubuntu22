@@ -1,0 +1,95 @@
+a4d33875f739180f3e49c4dad94e9c9a
+update person set encrypted_password="a4d33875f739180f3e49c4dad94e9c9a" where login='user2-elvpprd';
+kT86vB3saMdUBquN
+
+
+
+
+
+
+mairine password in application properties: yJ3KR89dTh2uWf
+
+
+
+
+SET PASSWORD FOR 'lively'@'localhost' = PASSWORD('4YXcWFKZja7LCa');
+
+mairie-conflans.inspheris.net
+
+update person set login='user2-gouiranpprd' where login='user2';
+update person set login='user1-oxfam' where login='user1-oxfam';
+
+
+
+QYp8GK6sxWQ9Un
+
+Fq2wRBBqadupkC
+
+
+
+
+Ansible is a suite of software tools that enables infrastructure as code. It is open-source and the suite includes software provisioning, configuration management, and application deployment functionality.
+
+
+
+4YXcWFKZja7LCa
+
+./letsencrypt-auto --apache -d dev-lively.inspheris.net
+
+scp -P 7101 apple-app-site-association lively@212.129.18.112:/soft/lively/tomcat7/webapps/ROOT/WEB-INF/classes/static/.well-known
+
+
+
+Stress test
+Login Form and user update
+Nagios Email Alert
+
+
+Change the password of Web Login of Lively Application
+
+update person set encrypted_password='d1bb083e4aeb4d2680957528f5031e6b' where login='user2-elvpprd';
+it is livelyDemo2017v5
+
+change encrypted password from string to md5
+
+update person set login='user2-joannepprd' where login='user2';
+
+To check login user access;
+select id, login from person;
+
+
+New client:
+login web:
+user2-gouiranpprd
+5aHCgI@b%jI9T&0v
+
+Database:joannepprd
+spring.datasource.username = lively
+spring.datasource.password = l1v3ly@p@ssw07d
+# local index search configuration
+local.index.url=http://localhost:9200
+local.index.name=content
+# Local storage 
+file.path = /data/
+
+Database:mairieprod
+spring.datasource.username = lively
+spring.datasource.password = l1v3ly@p@ssw07d
+# local index search configuration
+local.index.url=http://localhost:9200
+local.index.name=content
+# Local storage 
+file.path = /data/
+
+IP:192.168.1.155
+port:1155
+
+
+
+http://joanne.inspheris.net/
+
+
+
+
+
+
